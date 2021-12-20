@@ -1,13 +1,11 @@
-package com.example.reversi;
+package com.example.reversi.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Button;
-import android.widget.LinearLayout;
 
-import java.util.List;
+import com.example.reversi.setup.Board;
+import com.example.reversi.R;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -20,9 +18,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         startGame();
-
-
-
     }
 
     public void startGame()

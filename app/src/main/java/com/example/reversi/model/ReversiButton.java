@@ -1,4 +1,4 @@
-package com.example.reversi;
+package com.example.reversi.model;
 
 import android.content.Context;
 import android.util.AttributeSet;
